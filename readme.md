@@ -4,7 +4,7 @@ An example notebook using the [UCI Machine Learning Repository's heart disease d
 
 To run the notebook you will need 
 * pyspark, and
-* mlflow,
+* MLFlow,
  
 or run the notebook from a docker container. I've used the docker image [jupyter/pyspark-notebook](https://hub.docker.com/r/jupyter/pyspark-notebook).
 
@@ -35,3 +35,11 @@ The container's folder `/home/jovyan/work` will be mapped to whichever folder yo
 **Note**: To view MLflow UI when it is running on a Docker container, explicitly pass the host when you start your UI: `mlflow ui --host 0.0.0.0`.
 
 Stop the container with `docker stop sparkbook`.  
+
+## Notebooks
+* `mllib_hd_classification_example` contains an example of Logistic Regression, Gradient Boosting and Random Forest models in MLLib
+* ``mlflow_hd_classification_example` contains the same models, plus tracking with MLFlow  
+
+## Slides
+
+Presentation slides are available [here](https://docs.google.com/presentation/d/1d851jnxSo1Lt69rQPp5QNjMBtaiypmvoEinVDoFiD68/edit?usp=sharing).

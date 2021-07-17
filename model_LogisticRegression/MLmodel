@@ -7,4 +7,4 @@ flavors:
   spark:
     model_data: sparkml
     pyspark_version: 3.0.1
-utc_time_created: '2021-07-17 16:35:31.846060'
+utc_time_created: '2021-07-17 17:43:54.751734'
