@@ -1,0 +1,4 @@
+artifact_location: file:///home/jovyan/data/example/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: sd_ml

@@ -10,9 +10,9 @@ or run the notebook from a docker container. I've used the docker image [jupyter
 
 ## Installation on Mac
 
-`brew cask install homebrew/cask-versions/adoptopenjdk8`
-`brew install apache-spark`
-`pip install mlflow[extras]`
+`brew cask install homebrew/cask-versions/adoptopenjdk8`  
+`brew install apache-spark`  
+`pip install mlflow[extras]`  
 
 ## Docker
 
@@ -31,5 +31,7 @@ Finally, you can run your container with the command:
 Jupyter Notebook is exposed on port 8881 and MLflow on port 5000.  
 
 The container's folder `/home/jovyan/work` will be mapped to whichever folder you ran the `docker run` command from (`$PWD`).  
+
+**Note**: To view MLflow UI when it is running on a Docker container, explicitly pass the host when you start your UI: `mlflow ui --host 0.0.0.0`.
 
 Stop the container with `docker stop sparkbook`.  
