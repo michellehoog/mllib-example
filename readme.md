@@ -1,3 +1,5 @@
+![Spark logo](image.png)
+
 # MLLib and MLFlow Example
 
 An example notebook using the [UCI Machine Learning Repository's heart disease dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/). 
@@ -38,7 +40,7 @@ Stop the container with `docker stop sparkbook`.
 
 ## Notebooks
 * `mllib_hd_classification_example` contains an example of Logistic Regression, Gradient Boosting and Random Forest models in MLLib
-* ``mlflow_hd_classification_example` contains the same models, plus tracking with MLFlow  
+* `mlflow_hd_classification_example` contains the same models, plus tracking with MLFlow  
 
 ## Slides
 
